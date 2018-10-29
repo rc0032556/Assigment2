@@ -17,6 +17,7 @@ namespace WindowsFormsApp3
             InitializeComponent();
         }
 
+        // 5 resistors in parallel
         private void button1_Click(object sender, EventArgs e)
         {
             try
@@ -39,6 +40,7 @@ namespace WindowsFormsApp3
             }
         }
 
+        // 4 resistors in parallel
         private void button2_Click(object sender, EventArgs e)
         {
             try
@@ -60,7 +62,7 @@ namespace WindowsFormsApp3
                 MessageBox.Show("Error no value found");
             }
         }
-
+        // 3 resistors in parallel
         private void button3_Click(object sender, EventArgs e)
         {
             try
@@ -83,7 +85,7 @@ namespace WindowsFormsApp3
             }
 
         }
-
+        // 2 resistors in parallel
         private void button4_Click(object sender, EventArgs e)
         {
             try
@@ -103,7 +105,7 @@ namespace WindowsFormsApp3
             }
 
         }
-
+        // 5 resistors in series
         private void button5_Click(object sender, EventArgs e)
         {
             try
@@ -125,7 +127,7 @@ namespace WindowsFormsApp3
                 MessageBox.Show("Error no value found");
             }
         }
-
+        // 4 resistors in series
         private void button6_Click(object sender, EventArgs e)
         {
             try
@@ -147,7 +149,7 @@ namespace WindowsFormsApp3
                 MessageBox.Show("Error no value found");
             }
         }
-
+        // 3 resistors in series
         private void button7_Click(object sender, EventArgs e)
         {
             try
@@ -169,7 +171,7 @@ namespace WindowsFormsApp3
                 MessageBox.Show("Error no value found");
             }
         }
-
+        // 2 resistors in series
         private void button8_Click(object sender, EventArgs e)
         {
             try
