@@ -48,7 +48,7 @@ namespace WindowsFormsApp3
                 double R2 = Convert.ToDouble(textBox2.Text);
                 double R3 = Convert.ToDouble(textBox3.Text);
                 double R4 = Convert.ToDouble(textBox4.Text);
-                
+
 
 
                 double Rt = 1.0 / (1.0 / R1 + 1.0 / R2 + 1.0 / R3 + 1.0 / R4);
@@ -69,7 +69,7 @@ namespace WindowsFormsApp3
                 double R1 = Convert.ToDouble(textBox1.Text);
                 double R2 = Convert.ToDouble(textBox2.Text);
                 double R3 = Convert.ToDouble(textBox3.Text);
-                
+
 
 
 
@@ -91,7 +91,7 @@ namespace WindowsFormsApp3
 
                 double R1 = Convert.ToDouble(textBox1.Text);
                 double R2 = Convert.ToDouble(textBox2.Text);
-           
+
 
                 double Rt = 1.0 / (1.0 / R1 + 1.0 / R2);
                 label6.Text = "Total Resistance = " + Rt;
@@ -116,7 +116,7 @@ namespace WindowsFormsApp3
                 double R5 = Convert.ToDouble(textBox10.Text);
 
 
-                double Rt = ( R1 + R2 + R3 + R4 + R5);
+                double Rt = (R1 + R2 + R3 + R4 + R5);
                 label12.Text = "Total Resistance = " + Rt;
 
             }
@@ -126,9 +126,75 @@ namespace WindowsFormsApp3
             }
         }
 
+        private void button6_Click(object sender, EventArgs e)
+        {
+            try
+            {
 
+                double R1 = Convert.ToDouble(textBox6.Text);
+                double R2 = Convert.ToDouble(textBox7.Text);
+                double R3 = Convert.ToDouble(textBox8.Text);
+                double R4 = Convert.ToDouble(textBox9.Text);
+
+
+
+                double Rt = (R1 + R2 + R3 + R4);
+                label12.Text = "Total Resistance = " + Rt;
+
+            }
+            catch
+            {
+                MessageBox.Show("Error no value found");
+            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+                double R1 = Convert.ToDouble(textBox6.Text);
+                double R2 = Convert.ToDouble(textBox7.Text);
+                double R3 = Convert.ToDouble(textBox8.Text);
+
+
+
+
+                double Rt = (R1 + R2 + R3);
+                label12.Text = "Total Resistance = " + Rt;
+
+            }
+            catch
+            {
+                MessageBox.Show("Error no value found");
+            }
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+                double R1 = Convert.ToDouble(textBox6.Text);
+                double R2 = Convert.ToDouble(textBox7.Text);
+
+
+
+
+
+                double Rt = (R1 + R2);
+                label12.Text = "Total Resistance = " + Rt;
+
+            }
+            catch
+            {
+                MessageBox.Show("Error no value found");
+            }
+        }
     }
 }
+    
+
         
     
 
